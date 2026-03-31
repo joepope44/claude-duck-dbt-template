@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Raw source data loaded into DuckDB from data/raw/
+    # schema: main  # DuckDB default schema
+    tables:
+      # Add source tables here as you load data
+      # Example:
+      # - name: orders
+      #   description: Raw orders from the source system
+      #   columns:
+      #     - name: id
+      #       description: Primary key
+      #       tests:
+      #         - unique
+      #         - not_null
